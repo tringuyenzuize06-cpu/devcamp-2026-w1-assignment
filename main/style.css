@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0;
+    font-size: 100%;
+}
+
+html, body {
+    min-width: 1200px;
+    max-width: 1500px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(/Source\ picture/mountain.png);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: darkblue;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+    border-color: darkblue;
+    background-color: white;
+    color: darkblue;
+}
+
+main {
+    width: 100%;
+}
+
+main .text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+main .icon {
+    width: 2%;
+    height: 2%;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+.destination article {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.destination article h3, .destination article p {
+    margin-left: 10%;
+    color: white;
+}
+
+.indo {
+    background-image: url(/Source\ picture/indo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thai {
+    background-image: url(/Source\ picture/thai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vie {
+    background-image: url(/Source\ picture/vie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.malay {
+    background-image: url(/Source\ picture/malay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jap {
+    background-image: url(/Source\ picture/jap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.phil {
+    background-image: url(/Source\ picture/philip.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+}
+
+.hotel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 10px;
+    border-top: 1px solid black;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.hotel article {
+    width: 100%;
+}
+
+.hotel img {
+    height: 260px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
